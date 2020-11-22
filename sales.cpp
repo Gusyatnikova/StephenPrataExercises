@@ -46,4 +46,5 @@ namespace SALES {
         std::cout << std::endl << "average: " << s.average
                   << " min: " << s.min << " max: " << s.max << std::endl;
     }
+
 }
