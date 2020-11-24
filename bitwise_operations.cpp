@@ -1,4 +1,5 @@
 #include <iostream>
+#include <bitset>
 /*code for bitewise operation training
  * https://informatics.mccme.ru/mod/statements/view.php?id=43650#1*/
 //1
@@ -33,6 +34,7 @@ int main() {
 }
  */
 //4 invert bit
+/*
 int main() {
     int a;
     unsigned int i;
@@ -41,3 +43,59 @@ int main() {
     std::cout << int(a ^ (mask << i));
     return 0;
 }
+ */
+//5 Zero all bits except the last n
+/*
+int main() {
+    int a;
+    unsigned int n;
+    std::cin >> a >> n;
+    unsigned int mask = 0;
+    for (int i = 0; i < n; ++i) {
+        mask |= (1U << i);
+    }
+    std::cout << int(a & mask);
+    return 0;
+}
+//6 cout byte value bit by bit
+ */
+/*
+int main() {
+    unsigned int a;
+    std::cin >> a;
+    std::bitset<8> bs(a);
+    std::cout << bs;
+    return 0;
+}
+ */
+//7 Zero given last bist
+/*
+int main() {
+    int a;
+    unsigned int i;
+    std::cin >> a >> i;
+    a >>= i;
+    std::cout << (a << i);
+    return 0;
+}
+ */
+//8 2^n + 2^m
+/*
+int main() {
+    int n, m;
+    std::cin >> n >> m;
+    int res = (1U << n) | (1U << m);
+    std::cout << res;
+    return 0;
+}
+ */
+//9 set bit in 1
+/*
+int main() {
+    int a;
+    unsigned int i;
+    std::cin >> a >> i;
+    std::cout << int (a | (1U << i));
+    return 0;
+}
+ */
