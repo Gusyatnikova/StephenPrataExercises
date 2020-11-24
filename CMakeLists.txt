@@ -14,3 +14,5 @@ add_executable(chapter_9 chapter_9.cpp chapter_9_namespaces.h
 add_executable(chapter_10 chapter_10.cpp
         ch_10_bankbill.h ch_10_bankbill.cpp
         ch_10_person.h ch_10_person.cpp ch_10_sales.h ch_10_sales.cpp ch_10_list.h ch_10_list.cpp)
+add_executable(chapter_11 chapter_11.cpp)
+add_executable(bitwise_operations.cpp bitwise_operations.cpp)
