@@ -11,8 +11,7 @@ add_executable(chapter_7 chapter_7.cpp)
 add_executable(chapter_8 chapter_8.cpp)
 add_executable(chapter_9 chapter_9.cpp chapter_9_namespaces.h
         chapter_9_namespaces.cpp golf.h golf.cpp sales.h sales.cpp)
-add_executable(chapter_10 chapter_10.cpp
-        ch_10_bankbill.h ch_10_bankbill.cpp
-        ch_10_person.h ch_10_person.cpp ch_10_sales.h ch_10_sales.cpp ch_10_list.h ch_10_list.cpp)
-add_executable(chapter_11 chapter_11.cpp)
 add_executable(bitwise_operations.cpp bitwise_operations.cpp)
+add_executable(chapter_10 chapter_10.cpp ch_10_bankbill.h ch_10_bankbill.cpp ch_10_person.h ch_10_person.cpp ch_10_sales.h ch_10_sales.cpp ch_10_list.h ch_10_list.cpp)
+add_executable(chapter_11 chapter_11.cpp vect.h vect.cpp stonewt.h stonewt.cpp time0.h time0.cpp complex0.h complex0.cpp)
+add_executable(ch_11_rand_walk ch_11_randwalk.cpp vect.h vect.cpp)
