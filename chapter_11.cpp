@@ -7,10 +7,10 @@
 #include <climits>
 #include <deque>
 #include <time.h>
-#include "vect.h"
+#include "ch_11_files/vect.h"
 #include "time0.h"
-#include "stonewt.h"
-#include "complex0.h"
+#include "ch_11_files/stonewt.h"
+#include "ch_11_files/complex0.h"
 /*
 int main() {
     std::cout << "SHRT max: " << SHRT_MAX << " Short min: " << SHRT_MIN << " bytes in short: " << sizeof(short) << std::endl;

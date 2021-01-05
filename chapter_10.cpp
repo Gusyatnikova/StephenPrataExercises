@@ -1,10 +1,10 @@
 #include <iostream>
 #include <string>
 #include <cstring>
-#include "ch_10_bankbill.h"
-#include "ch_10_person.h"
-#include "ch_10_sales.h"
-#include "ch_10_list.h"
+#include "ch_10_files/ch_10_bankbill.h"
+#include "ch_10_files/ch_10_person.h"
+#include "ch_10_files/ch_10_sales.h"
+#include "ch_10_files/ch_10_list.h"
 /*
 class MyClass {
 public:
