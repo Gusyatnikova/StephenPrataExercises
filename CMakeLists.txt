@@ -19,7 +19,7 @@ add_executable(chapter_12 chapter_12.cpp ch_12_files/ch_12_customer.h ch_12_file
 add_executable(ch_12_vegnews ch_12_files/ch_12_vegnews.cpp ch_12_files/ch_12_strbad.h ch_12_files/ch_12_strbad.cpp  ch_12_files/ch_12_queue.h ch_12_files/ch_12_queue.cpp)
 add_executable(ch_12_string1_test ch_12_files/ch_12_string1_test.cpp ch_12_files/ch_12_string1.h ch_12_files/ch_12_string1.cpp)
 add_executable(ch_12_queue_test ch_12_files/ch_12_queue_test.cpp ch_12_files/ch_12_queue.h ch_12_files/ch_12_queue.cpp ch_12_files/ch_12_customer.h ch_12_files/ch_12_customer.cpp)
-add_executable(chapter_13 chapter_13.cpp ch_13_files/classic.h ch_13_files/classic.cpp ch_13_files/dma.h ch_13_files/dma.cpp)
+add_executable(chapter_13 chapter_13.cpp ch_13_files/classic.h ch_13_files/classic.cpp ch_13_files/dma.h ch_13_files/dma.cpp ch_13_files/port.h ch_13_files/port.cpp)
 add_executable(usett0 ch_13_files/usett0.cpp ch_13_files/tabtenn0.h ch_13_files/tabtenn0.cpp)
 #add_executable(usebrass1 ch_13_files/usebrass1.cpp ch_13_files/brass.h ch_13_files/brass.cpp)
 add_executable(usebrass1 ch_13_files/usebrass1.cpp ch_13_files/acctabc.h ch_13_files/acctabc.cpp)
